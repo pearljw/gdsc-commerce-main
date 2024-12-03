@@ -24,9 +24,8 @@ function handleAddToCart(e) {
     const cartItems = document.querySelector('.cart-items')
     cartItems.appendChild(newDiv)
 
-    
+        //Assignment make the remove button work
     removeButton.addEventListener("click", function (e) {
     newDiv.remove(e)
 }) 
-    //Assignment make the remove button work
 }
